@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NX - Criação de Sites Personalizados</title>
+    <link rel="icon" href="assets/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">
+                <img src="assets/logo.png" alt="NX">
+                <span class="logo-text">NX</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#orcamentos">Serviços</a></li>
+                <li><a href="#demonstracao">Demonstração</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobileMenu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Suas ideias no digital</h1>
+                <p>Desenvolvo sites personalizados, modernos e de alta performance que transformam visitantes em
+                    clientes.</p>
+                <div class="hero-buttons">
+                    <a href="#orcamentos" class="btn btn-primary">
+                        <i class="fas fa-calculator"></i> Nossos serviços
+                    </a>
+                    <a href="#contato" class="btn btn-secondary">
+                        <i class="fas fa-comments"></i> Entrar em Contato
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-user-astronaut"></i> Sobre Mim</h2>
+                <p>Conheça um pouco mais sobre minha jornada e paixão pela criação web</p>
+            </div>
+            <div class="sobre-grid">
+                <div class="sobre-image">
+                    <div class="image-frame">
+                        <img src="assets/logo_8k.png" alt="Sobre Mim">
+                    </div>
+                </div>
+                <div class="sobre-content">
+                    <h3>Desenvolvedor Web</h3>
+                    <p>Olá! Sou Nicolas, um desenvolvedor web apaixonado por tecnologia. Criar soluções digitais que
+                        fazem a diferença já virou hábito. Com experiência na criação de sites personalizados, busco
+                        sempre entregar projetos que superem as expectativas dos clientes.</p>
+                    <p>Minha jornada começou em 2024, quando descobri a programação — um meio na internet para
+                        transformar vidas e ideias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Orçamentos -->
+    <section id="orcamentos" class="orcamentos">
+        <div class="section-title">
+            <h2><i class="fas fa-tags"></i> Nossos Planos</h2>
+            <p>Escolha o site perfeito para seu negócio</p>
+        </div>
+
+        <!-- Planos Principais -->
+        <div class="precos-grid">
+            <div class="preco-card romantico-card">
+                <div class="preco-icon">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <h3>Site Romântico</h3>
+                <div class="preco-valor">R$ 20</div>
+                <ul class="preco-features">
+                    <li><i class="fas fa-check"></i> Até 10 Fotos</li>
+                    <li><i class="fas fa-check"></i> Textos Personalizados</li>
+                    <li><i class="fas fa-check"></i> Músicas Personalizadas</li>
+                    <li><i class="fas fa-check"></i> Timer funcional</li>
+                    <li><i class="fas fa-check"></i> Qr code unico</li>
+                    <li><i class="fas fa-check"></i> Link personalizado</li>
+                    <li><i class="fas fa-check"></i> Design Exclusivo</li>
+                </ul>
+                <a href="#contato" class="btn btn-primary">Quero Este</a>
+            </div>
+            <div class="preco-card">
+                <div class="preco-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <h3>Landing Page</h3>
+                <div class="preco-valor">R$ 400</div>
+                <ul class="preco-features">
+                    <li><i class="fas fa-check"></i> 1 Página</li>
+                    <li><i class="fas fa-check"></i> Design Responsivo</li>
+                    <li><i class="fas fa-check"></i> Formulário de Contato</li>
+                    <li><i class="fas fa-check"></i> Integração WhatsApp</li>
+                </ul>
+                <a href="#contato" class="btn btn-primary">Quero Este</a>
+            </div>
+            <div class="preco-card destaque">
+                <div class="preco-badge">Mais Popular</div>
+                <div class="preco-icon">
+                    <i class="fas fa-building"></i>
+                </div>
+                <h3>Site Institucional</h3>
+                <div class="preco-valor">R$ 800</div>
+                <ul class="preco-features">
+                    <li><i class="fas fa-check"></i> Até 5 Páginas</li>
+                    <li><i class="fas fa-check"></i> Design Exclusivo</li>
+                    <li><i class="fas fa-check"></i> Blog Integrado</li>
+                    <li><i class="fas fa-check"></i> SEO Básico</li>
+                </ul>
+                <a href="#contato" class="btn btn-primary">Quero Este</a>
+            </div>
+            <div class="preco-card">
+                <div class="preco-icon">
+                    <i class="fas fa-store"></i>
+                </div>
+                <h3>E-commerce</h3>
+                <div class="preco-valor">R$ 1.200</div>
+                <ul class="preco-features">
+                    <li><i class="fas fa-check"></i> Loja Personalizada</li>
+                    <li><i class="fas fa-check"></i> Produtos Ilimitados</li>
+                    <li><i class="fas fa-check"></i> Pagamentos Online</li>
+                </ul>
+                <a href="#contato" class="btn btn-primary">Quero Este</a>
+            </div>
+            <div class="preco-card servico-centralizado">
+                <div class="preco-icon">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <h3>Serviço Personalizado</h3>
+                <div class="preco-valor">Sob Consulta</div>
+                <ul class="preco-features">
+                    <li><i class="fas fa-check"></i> Desenvolvimento Sob Medida</li>
+                    <li><i class="fas fa-check"></i> Funcionalidades Extras</li>
+                    <li><i class="fas fa-check"></i> Design Exclusivo</li>
+                    <li><i class="fas fa-check"></i> Suporte Personalizado</li>
+                </ul>
+                <a href="#contato" class="btn btn-primary">Quero Este</a>
+            </div>
+        </div>
+
+        <p class="obs-texto">* Hospedagem não inclusa | SSL Grátis em todos os planos</p>
+    </section>
+
+    <!-- Demonstração -->
+    <section id="demonstracao" class="demonstracao">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-laptop-code"></i> Demonstração</h2>
+                <p>Veja alguns dos meus projetos desenvolvidos</p>
+            </div>
+            <div class="demo-grid">
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="demo-content">
+                        <h3>Site Romântico</h3>
+                        <p>Design exclusivo com músicas personalizadas e galeria de fotos.</p>
+                        <a href="https://te-amo-ashen.vercel.app" target="_blank" class="btn btn-secondary">Ver
+                            Projeto</a>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="demo-content">
+                        <h3>E-commerce</h3>
+                        <p>Loja virtual completa com sistema de pagamentos e gerenciamento de produtos.</p>
+                        <a href="https://e-comerce-meteora.vercel.app/#" target="_blank" class="btn btn-secondary">Ver
+                            Projeto</a>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="demo-content">
+                        <h3>Site Institucional</h3>
+                        <p>Website corporativo com blog integrado e formulário de contato.</p>
+                        <a href="https://institucional-bice.vercel.app" class="btn btn-secondary">Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="demo-content">
+                        <h3>Landing Page</h3>
+                        <p>Página de captura otimizada para conversão de leads.</p>
+                        <a href="https://landing-page-leeds.vercel.app" class="btn btn-secondary">Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <div class="demo-content">
+                        <h3>Site para Restaurante</h3>
+                        <p>Cardápio digital interativo com sistema de reservas.</p>
+                        <a href="#" class="btn btn-secondary">Ver Projeto</a>
+                    </div>
+                </div>
+                <div class="demo-card">
+                    <div class="demo-image">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="demo-content">
+                        <h3>Portfólio Profissional</h3>
+                        <p>Portfólio moderno para freelancers e profissionais autônomos.</p>
+                        <a href="https://portifolio-apresentavel.vercel.app" target="_blank"
+                            class="btn btn-secondary">Ver Projeto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback -->
+    <section id="feedback" class="feedback">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-comments"></i> Feedback dos Clientes</h2>
+                <p>O que meus clientes dizem sobre meu trabalho</p>
+            </div>
+
+            <div class="rating-summary">
+                <div class="rating-main">
+                    <span class="rating-number">4.9</span>
+                    <div class="rating-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Baseado em <span id="totalReviews">0</span> avaliações</p>
+                </div>
+            </div>
+
+            <div class="testimonials-grid" id="testimonialsGrid">
+            </div>
+
+            <div class="feedback-form-container">
+                <h3><i class="fas fa-pen-alt"></i> Deixe seu Feedback</h3>
+                <form id="formFeedback" class="form-feedback">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="feedbackNome">Seu Nome *</label>
+                            <input type="text" id="feedbackNome" placeholder="Seu nome" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Avaliação *</label>
+                        <div class="star-rating">
+                            <input type="radio" name="rating" value="5" id="star5" required>
+                            <label for="star5"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="4" id="star4">
+                            <label for="star4"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="3" id="star3">
+                            <label for="star3"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="2" id="star2">
+                            <label for="star2"><i class="fas fa-star"></i></label>
+                            <input type="radio" name="rating" value="1" id="star1">
+                            <label for="star1"><i class="fas fa-star"></i></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="feedbackMensagem">Seu Depoimento *</label>
+                        <textarea id="feedbackMensagem" rows="4" placeholder="Conte sua experiência..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Enviar Feedback
+                    </button>
+                    <div id="mensagemFeedback" class="mensagem"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="section-title">
+                <h2><i class="fas fa-envelope"></i> Entre em Contato</h2>
+                <p>Estamos prontos para atender você</p>
+            </div>
+            <div class="contato-info">
+                <a href="mailto:dev.nicolas.mendes@gmail.com" class="info-item-link">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>dev.nicolas.mendes@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/devnxcolaz/?utm_source=ig_web_button_share_sheet" target="_blank"
+                    class="info-item-link">
+                    <div class="info-item">
+                        <i class="fab fa-instagram"></i>
+                        <h4>Instagram</h4>
+                        <p>@devnxcolaz</p>
+                    </div>
+                </a>
+                <a href="https://wa.me/5512987018791" target="_blank" class="info-item-link">
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <h4>WhatsApp</h4>
+                        <p>(12) 98701-8791</p>
+                    </div>
+                </a>
+                <a href="https://www.google.com/maps?q=S%C3%A3o+Paulo,+SP+-+Brasil" target="_blank"
+                    class="info-item-link">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h4>Localização</h4>
+                        <p>São Paulo, SP - Brasil</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">
+                    <img src="assets/logo.png" alt="NX">
+                    <span class="logo-text">NX</span>
+                </a>
+                <p>Criando o futuro da web, um site de cada vez.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/devnxcolaz/?utm_source=ig_web_button_share_sheet"
+                        target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nicolas-mendes-743805357" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/DEV-nxcolaz" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://wa.me/5512987018791" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 NX. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
