@@ -512,9 +512,8 @@ section {
 }
 
 .preco-card.destaque {
-    border-color: var(--neon-magenta);
-    box-shadow: 0 0 40px rgba(255,0,255,0.4);
-    transform: scale(1.05);
+    border-color: var(--neon-cyan);
+    box-shadow: var(--glow-cyan);
 }
 
 .preco-icon {
